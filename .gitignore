@@ -1,38 +1,43 @@
-*.~
-*.old
-*.bak
-*.orig
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-.*
-*.o
-*.o.*
+# Folder config file
+Desktop.ini
 
-modules.builtin
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-*.elf
-*.bin
-*.gz
-*.bz2
-*.lzma
-*.xz
-*.lzo
-*.patch
-*.gcno
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-/tags
-/TAGS
-/linux
-/vmlinux
-/vmlinuz
-/System.map
-/Module.markers
-/Module.symvers
+# =========================
+# Operating System Files
+# =========================
 
-.gitignore
-!.gitignore
-!.mailmap
-manual
-out/
-prebuilts/
-mediatek/misc/
+# OSX
+# =========================
 
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
